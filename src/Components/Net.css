@@ -1,0 +1,20 @@
+.one-network {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: rgba(137, 43, 226, 0.48);
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.one-network img {
+    max-width: 200px;
+    cursor: pointer;
+    transition: all 0.6s linear;
+}
+
+.one-network img:hover {
+    transform: scale(1.05);
+}
+
